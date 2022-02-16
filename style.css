@@ -266,4 +266,8 @@ footer p {
         -ms-grid-row-align: center;
         align-self: center;
   }
+
+  .popup {
+    height: auto;
+  }
 }
