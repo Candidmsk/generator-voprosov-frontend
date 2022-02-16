@@ -269,5 +269,10 @@ footer p {
 
   .popup {
     height: auto;
+    margin-top: 10px;
+  }
+
+  .container {
+    height: auto;
   }
 }
