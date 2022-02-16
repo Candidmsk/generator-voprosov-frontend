@@ -259,6 +259,7 @@ footer p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 20px;
   }
 
   footer p {
@@ -274,5 +275,6 @@ footer p {
 
   .container {
     height: auto;
+    margin-top: 20px;
   }
 }
