@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сборник задачек "Душнила 2.0"</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="normalze.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contanier">
+        <div class="popup">
+        <p href="" class="popup__inner-text">Что бы воспользоваться <span>"Душнилой 2.0"</span> выберите уровень сложности и нажмите кнопку "Сгенерировать вопрос"</p>
+        </div>
+        <div class="button-block">
+        <input type="button" class="button-block__generate button1" value="Сгенерировать вопрос" onclick="generateQuestions()">
+            <div class="button-block__difficult">
+            <input type="range" class="difficult-level" min="1" max="3" value="1" id="difficult-level-range" oninput="changeDifficultLevel()">
+            <label for="difficult-level-range" class="range">Легко</label>
+            </div>
+        <input type="button" class="button-block__generate_ask button1" value="Подсмотреть ответ" onclick="generateAnswer()">
+        </div>
+
+        <footer>
+            <p>Разработчик:</p>
+        <div class="vk">
+            <img src="img/vk-process-mining.png" alt="" width="30" height="auto">
+            <a href="https://vk.com/candid_msk" target="_blank">Страница Вконтакте</a>
+        </div>
+
+        <div class="telegram">
+            <img src="img/telegram-logo.png" alt="" width="30" >
+            <a href="https://t.me/MarketingMoskva" target="_blank">Я в телеграме</a>
+        </div>
+        </footer>
+    </div>
+    <script src="scritpt.js"></script>
+    <script src="easy.js"></script>
+    <script src="normal.js"></script>
+    <script src="hard.js"></script>
+
+
+</body>
+</html>
+
