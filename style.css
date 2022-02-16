@@ -25,6 +25,7 @@
 }
 
 .popup {
+  margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -106,7 +107,7 @@
   border-radius: 10px;
   color: #1d89ff;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   font-family: inherit;
   z-index: 0;
   overflow: hidden;
@@ -204,7 +205,7 @@ footer {
       justify-content: space-around;
   justify-items: center;
   width: 80%;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 footer a {
@@ -259,11 +260,22 @@ footer p {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    margin-bottom: 20px;
   }
 
   footer p {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
         align-self: center;
+  }
+
+  .popup {
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .container {
+    height: auto;
+    margin-top: 20px;
   }
 }
