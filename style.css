@@ -197,9 +197,6 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 footer {
-  position: relative;
-  margin-top: 20px;
-  bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -207,6 +204,7 @@ footer {
       justify-content: space-around;
   justify-items: center;
   width: 80%;
+  margin-top: 30px;
 }
 
 footer a {
